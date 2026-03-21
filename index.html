@@ -3,30 +3,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная</title>
+    <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
     <header>
-        <h1>МНБИД</h1>
-        <h3>Мы ненавидим бабок и дедов</h3>
-        <nav>
-            <button class="login" onclick="window.location.href = './login.html'">login</button>
-            <button class="support">связаться с нами</button>
-        </nav>
+        <div class="content__head">
+            <img class="logo" src="images/logo.png" alt="Логотип сайта">
+            <nav>
+                <button>Перспективы</button>
+                <button>Отзывы</button>
+                <button>Новости</button>
+                <button>О нас</button>
+                <button class='login'>Войти</button>
+            </nav>
+        </div>
     </header>
     <main>
-        <div class="about_us">
-            <h4>Только два вопроса меня волнуют:</h4>
-            <p>Кто мы?</p>
-            <p>И какого хуя?</p>
+        <div class="gradient">
+            <div class="project__info">
+                <h4>Здесь будет информация о проекте</h4>
+                <p></p>
+            </div>
         </div>
-        <div class="last_post">last post</div>
-        <div class="events">events</div>
-        <div class="speakers">speakers</div>
-        <div class="plans">plans</div>
-        <div class="sponsors">sponsors</div>
+        <div class="last_news">
+            <h3>Последние новости</h3>
+            <div class="content__news">
+                <div class="nblock">
+                    <img src="images/img1.png" alt="">
+                    <h3>Оздоровительные мероприятия в садике</h3>
+                </div>
+                <div class="nblock">
+                    <img src="images/img1.png" alt="">
+                    <h3>Оздоровительные мероприятия в садике</h3>
+                </div>
+                <div class="nblock">
+                    <img src="images/img1.png" alt="">
+                    <h3>Оздоровительные мероприятия в садике</h3>
+                </div>
+            </div>
+        </div>
     </main>
-    <footer>
-        <h3>МНБИД</h3>
-    </footer>
+    <footer></footer>
 </body>
 </html>
