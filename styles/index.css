@@ -1,0 +1,30 @@
+@import url("default.css");
+
+.gradient {
+    background: linear-gradient(180deg, #32CAC6 33%, #83E3D8 100%);
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+.project__info {
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px 30px 0px;
+    color: white;
+}
+.last_news {
+    padding: 30px;
+}
+.nblock {
+    background: linear-gradient(40deg, #D1F5F1 0%, #A1E6E4 100%);
+    border-radius: 10px;
+    width: 340px;
+    height: 270px;
+}
+.nblock img {
+    height: 135px;
+    width: 340px;
+    border-radius: 10px;
+    object-fit: cover;   
+}
