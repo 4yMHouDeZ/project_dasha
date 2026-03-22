@@ -26,6 +26,8 @@
     justify-content: space-between;
     flex-grow: 1;
     overflow-x: auto;
+    overflow-y: clip;
+    scrollbar-width: thin;
 }
 .nblock {
     background: linear-gradient(40deg, #D1F5F1 0%, #A1E6E4 100%);
@@ -35,6 +37,13 @@
     align-items: center;
     border-radius: 10px;
     word-break: break-word;
+}
+.nblock h4 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;      /* количество строк */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .nblock img {
     object-position: 0px 0px;
